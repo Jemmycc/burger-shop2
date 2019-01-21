@@ -6,7 +6,7 @@ module.exports = function (sequelize, DataTypes) {
         },
         devoured: {
             type: DataTypes.BOOLEAN,
-            default: false
+            defaultValue: false
         }
     });
 
