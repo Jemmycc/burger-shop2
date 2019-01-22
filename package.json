@@ -1,5 +1,5 @@
 {
-  "name": "Super-Good-Friends-Burger-Shop",
+  "name": "Super-Good-Friends-Burger-Shop-2",
   "version": "1.0.0",
   "description": "An app lets a user input names of burgers they'd like to eat, and keeps his/her devoured burgers in a separate area.",
   "main": "server.js",
@@ -12,6 +12,7 @@
   "author": "Miya Studio",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "eslint": "^5.11.1",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",

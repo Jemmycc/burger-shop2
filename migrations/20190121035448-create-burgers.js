@@ -9,19 +9,13 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       burger_name: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       devoured: {
+        defaultValue: false,
         type: Sequelize.BOOLEAN
       },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      }
     });
   },
   down: (queryInterface, Sequelize) => {
